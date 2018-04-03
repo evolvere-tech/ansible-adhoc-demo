@@ -1,0 +1,1 @@
+ansible switches -i inventory_file -c network_cli -m ios_command -e "ansible_network_os=ios" -a "commands='show version'"

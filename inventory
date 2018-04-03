@@ -1,0 +1,8 @@
+[switches]
+switch1.example.com
+switch2.example.com
+switch7.example.com
+
+[switches:vars]
+ansible_user=admin_username 
+ansible_ssh_private_key_file=/path/to/private/key
